@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<redpen-conf lang="ja">
+    <validators>
+        <!-- 文の長さチェック -->
+        <validator name="SentenceLength">
+            <property name="max_len" value="100"/>
+        </validator>
+        
+        <!-- 文末の句点チェック -->
+        <validator name="EndOfSentence"/>
+        
+        <!-- カタカナの長音記号チェック -->
+        <validator name="KatakanaSpellCheck"/>
+        
+        <!-- 漢字の誤用チェック -->
+        <validator name="InvalidWord"/>
+        
+        <!-- 読点の連続チェック -->
+        <validator name="CommaNumber"/>
+        
+        <!-- 同一語の連続チェック -->
+        <validator name="DoubledWord"/>
+        
+        <!-- 括弧の対応チェック -->
+        <validator name="ParenthesizedSentence"/>
+        
+        <!-- 文の構造チェック -->
+        <validator name="ParagraphNumber"/>
+        
+        <!-- 見出しの長さチェック -->
+        <validator name="SectionLength"/>
+    </validators>
+</redpen-conf>

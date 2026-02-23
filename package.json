@@ -10,7 +10,9 @@
     "new:book": "zenn new:book",
     "lint": "zenn lint",
     "create-image-folder": "node scripts/create-image-folder.js",
-    "rename-article": "node scripts/rename-article.js"
+    "rename-article": "node scripts/rename-article.js",
+    "redpen": "node scripts/check-with-redpen.js",
+    "prepublish": "node scripts/prepublish-check.js"
   },
   "repository": {
     "type": "git",
