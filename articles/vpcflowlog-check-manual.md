@@ -40,7 +40,7 @@ VPCフローログは、仮想プライベートクラウド内のネットワ�
 
 VPCフローログの出力先となるS3バケットを作成し、VPCコンソールで対象のVPCを選択して「フローログの作成」をクリックします。以下の設定を行います：
 
-![VPCフローログ作成画面](images/vpcflowlog-check-manual/vpc-flow-log-creation.png)
+![VPCフローログ作成画面](/images/vpcflowlog-check-manual/vpc-flow-log-creation.png)
 *VPCフローログ作成画面の設定項目*
 
 - **名前（オプション）**: 識別用の名前を指定（例: `my-flow-log-01`）
