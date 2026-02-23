@@ -1,0 +1,30 @@
+{
+  "name": "zenn-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preview": "zenn preview",
+    "new:article": "node scripts/new-article-with-image-folder.js",
+    "new:article:simple": "zenn new:article",
+    "new:book": "zenn new:book",
+    "lint": "zenn lint",
+    "create-image-folder": "node scripts/create-image-folder.js",
+    "rename-article": "node scripts/rename-article.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smdtmk/zenn-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/smdtmk/zenn-blog/issues"
+  },
+  "homepage": "https://github.com/smdtmk/zenn-blog#readme",
+  "dependencies": {
+    "zenn-cli": "^0.3.1"
+  }
+}
